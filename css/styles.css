@@ -644,6 +644,7 @@ address {
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: var(--background-color);
+  border-radius: 4px;
   width: 528px;
   height: 581px;
 }
@@ -772,14 +773,6 @@ margin-bottom: 12px;
   cursor: pointer;
   margin-left: 57px;
   margin-top: 20px;
-}
-
-.input-main-class{
-  background-color: currentColor;
-}
-
-.input-main-class:checked{
-  background-color: var(--background-button-color);
 }
 
 .send-btn{
