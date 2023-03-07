@@ -750,7 +750,7 @@ address {
 
 .form-input:focus {
   outline: none;
-  border-color: #2196f3;
+  border-color: var(--background-button-color);
 }
 
 .form-input:focus + .icon-form {
