@@ -727,6 +727,8 @@ left: 42px;
 
 
 .form-class {
+  position: absolute;
+ padding-left: 78px;
   display: flex;
   flex-direction: column;
   align-items: baseline;
@@ -745,8 +747,7 @@ margin-bottom: 20px;
 
 .form-input{
   border-radius: 4px;
-  min-width: 200px;
-  height: 40px;
+ padding: 14px 421px 14px 15px;
   border: 1px solid rgba(33, 33, 33, 0.2);
 
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -764,10 +765,11 @@ margin-bottom: 20px;
 }
 
 .main-form{
-margin-top: 40px;
-margin-left: 40px;
-margin-right: 40px;
-margin-bottom: 12px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+text-align: center;
+padding-top: 39px;
 }
 
 .label-class{
@@ -831,15 +833,15 @@ margin-bottom: 12px;
   position: relative;
    display: flex;
   flex-direction: column;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   margin-left: 40px;
   margin-right: 40px;
 }
 
 .icon-form{
   position: absolute;
-  top: 70%;
-  left: 14px;
+  top: 65%;
+  left: 15px;
   transform: translateY(-70%);
   fill: currentColor;
 }
