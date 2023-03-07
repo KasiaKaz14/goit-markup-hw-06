@@ -766,11 +766,35 @@ address {
 }
 
 .label-class {
-  display: block;
   position: relative;
+  display: block;
   cursor: pointer;
-  margin-left: 57px;
+  margin-left: 54px;
   margin-top: 20px;
+}
+
+.svg-input {
+  cursor: pointer;
+  width: 16px;
+  height: 15px;
+}
+
+.svg-input:checked + .form-svg {
+  background-color: var(--background-button-color);
+  fill: var(--secondary-text-color);
+  visibility: visible;
+}
+
+.form-svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 16px;
+  height: 15px;
+
+  border-radius: 2px;
+  visibility: hidden;
 }
 
 .send-btn {
