@@ -483,14 +483,15 @@
             </li>
           </ul>
         </div>
-      </div>     
-      <form class="form-class" name="newsletter_signup" autocomplete="on">             
+        <form class="form-class" name="newsletter_signup" autocomplete="on">             
           <label class="newsletter" for="email" class="newsletter">Zapisz się do newslettera</label> 
           <div class="form"> 
           <input class="input-class" type="email" name="email" id="email" placeholder="E-mail"/>
-        <button class="sign-in-button form-text-btn" type="submit"><span class="">Zapisz się</span><svg  width="24" height="24" class="footer-icon"><use href="./images/icons.svg#icon-footer-icon-send"></use></svg></button>
+        <button class="sign-in-button form-text-btn" type="submit">Zapisz się<svg class="sign-svg" width="24" height="24" class="footer-icon"><use href="./images/icons.svg#icon-footer-icon-send"></use></svg></button>
       </div>
       </form>
+      </div>     
+      
     </footer>
           <div class="backdrop is-hidden" data-modal>
             <div class="modal">
@@ -499,7 +500,7 @@
                 </svg>              
                 </button>    
                  <form>
-                <h2 class="main-form">Zostaw swoje dane w formularzu poniżej</h2>               
+                <p class="main-form">Zostaw swoje dane w formularzu poniżej</p>               
                 <label class="input-container">
                   <span class="label-text">Imie</span>
                   <input class="form-input" type="text" name="name"/>
@@ -524,15 +525,17 @@
             </label>
             <label class="input-container">
               <span class="label-text">Komentarz</span>
-              <textarea class="textarea" name="comment" rows="7" placeholder="Wprowadź tekst"></textarea>
+              <textarea class="textarea" name="comment" rows="5" placeholder="Wprowadź tekst"></textarea>
             </label>  
              <label class="label-class ">            
               <input class="svg-input" type="checkbox" name="privacy"/>
                <svg class="form-svg" width="11" height="8">
                 <use href="./images/icons.svg#icon-Vector-1"></use>
               </svg>
-            
-            <span class="privacy-text">Oświadczam, iż akceptuję <a class="form-link" href="#">Regulamin</a> i <a class="form-link" href="#">Politykę Prywatności.</a></span></label>
+            <svg class="svg-input-second" width="16" height="15">
+              <use href="./images/icons.svg#icon-Vector-2"></use>
+            </svg>
+            <span class="privacy-text">Oświadczam iż akceptuję <a class="form-link" href="#">Regulamin</a> i <a class="form-link" href="#">Politykę Prywatności.</a></span></label>
             <button class="send-btn send-btn-text" type="submit">Wyślij</button>
             </form>  
               </div>             
